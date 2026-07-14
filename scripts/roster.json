@@ -1,0 +1,13 @@
+{
+  "users": [
+    { "name": "lcy", "role": "teacher" },
+    { "name": "xh", "role": "teacher" },
+    { "name": "sh", "role": "teacher" },
+    { "name": "jx", "role": "teacher" },
+    { "name": "allen", "role": "student" },
+    { "name": "ethan", "role": "student" },
+    { "name": "hillary", "role": "student" },
+    { "name": "ryan", "role": "student" },
+    { "name": "ryder", "role": "student" }
+  ]
+}
