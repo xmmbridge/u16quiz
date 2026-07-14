@@ -80,9 +80,16 @@ git push -u origin main
 4. Before deploying, go to **Site configuration → Environment variables** and add:
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_ANON_KEY`
-   
-   (Do **not** add `SUPABASE_SERVICE_ROLE_KEY` here — it's only for your local machine.)
-5. Deploy. From now on, every push to `main` auto-deploys.
+   - `SUPABASE_SERVICE_ROLE_KEY` — the login Netlify Function calls Supabase's REST API
+     server-side with this key (see `netlify/functions/login.js`). This is safe to set here:
+     unlike the `VITE_`-prefixed vars, it's never bundled into the browser — Netlify Functions
+     run server-side and this value stays there.
+   - `LOGIN_CREDENTIALS` — a JSON array of `{"name":...,"password":...}` for every person in
+     `scripts/roster.json`, e.g. `[{"name":"lcy","password":"235711"}, ...]`. This is what the
+     login screen actually checks; roles come from the `users` table, not this variable.
+5. Deploy. From now on, every push to `main` auto-deploys — but trigger a manual redeploy
+   any time you *only* change an environment variable, since Netlify Functions pick up new
+   values on the next deploy, not live.
 
 ## Ongoing use
 
