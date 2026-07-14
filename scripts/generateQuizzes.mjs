@@ -1,10 +1,10 @@
 // One-time (re-runnable) script:
 //  1. Upserts question_templates from scripts/templates.json (run parseTemplates.mjs first)
 //  2. Creates any missing quizzes from today through --end-date (default: Sept 30 of this year),
-//     one per calendar day, 20 questions each, never touching quizzes that already exist.
+//     one per calendar day, 10 questions each, never touching quizzes that already exist.
 //
 // Usage:
-//   node scripts/generateQuizzes.mjs [--end-date=2026-09-30] [--questions-per-quiz=20]
+//   node scripts/generateQuizzes.mjs [--end-date=2026-09-30] [--questions-per-quiz=10]
 
 import fs from 'node:fs';
 import 'dotenv/config';
@@ -26,7 +26,7 @@ const args = Object.fromEntries(
   })
 );
 
-const questionsPerQuiz = Number(args['questions-per-quiz'] || 20);
+const questionsPerQuiz = Number(args['questions-per-quiz'] || 10);
 const endDateStr = args['end-date'] || `${new Date().getFullYear()}-09-30`;
 
 const supabase = createClient(url, serviceKey);

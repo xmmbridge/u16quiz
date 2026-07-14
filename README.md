@@ -1,7 +1,7 @@
 # Bridge Bidding Quiz
 
-A daily bidding quiz for a small bridge class: 6 students + 1 teacher, name-only login,
-20 questions a day pulled from a bank of auction templates, teacher-set answer keys,
+A daily bidding quiz for a small bridge class: name-only login,
+10 questions a day pulled from a bank of auction templates, teacher-set answer keys,
 and a student challenge/regrade workflow.
 
 ## 1. Create the Supabase project
@@ -46,7 +46,7 @@ node scripts/generateQuizzes.mjs
 This:
 - Parses every `AuctionModel` XML file in the folder you point it at
 - Upserts them into `question_templates` (safe to re-run after editing an XML file — it matches on file+template+testable position, so existing quizzes that already used a template keep their originally-dealt hands even if you later tweak that template's HCP/shape ranges)
-- Creates one quiz per calendar day from **today** through **Sept 30** (pass `--end-date=YYYY-MM-DD` to change), 20 questions each, with hands dealt fresh right now
+- Creates one quiz per calendar day from **today** through **Sept 30** (pass `--end-date=YYYY-MM-DD` to change), 10 questions each, with hands dealt fresh right now
 
 Re-running `generateQuizzes.mjs` later (e.g. to extend past Sept 30) only adds quizzes for dates that don't exist yet — it never touches ones already generated.
 
