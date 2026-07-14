@@ -1,0 +1,10827 @@
+[
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "3C",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2443",
+      "4423",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "3C",
+      "3H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "3C",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2443",
+      "4423",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "3C",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1S",
+      "3C",
+      "3S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "4243",
+      "4423",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1S",
+      "3C",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5332",
+      "2533",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1S",
+      "3C",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "4243",
+      "4423",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1S",
+      "3C",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "5332",
+      "2533",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1H",
+      "3D",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2443",
+      "4423",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1H",
+      "3D",
+      "3H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2443",
+      "4423",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "3D",
+      "3S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "4243",
+      "4423",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "3D",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "5332",
+      "2533",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "3D",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "4243",
+      "4423",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "3D",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "5332",
+      "2533",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1H",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 5,
+    "shapes": [
+      "2443",
+      "4423",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 19,
+    "max_hcp": 19,
+    "shapes": [
+      "3622",
+      "2623",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1S",
+      "3S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 5,
+    "shapes": [
+      "4243",
+      "4423",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1M_4cRaiseNonGF.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1S",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 19,
+    "max_hcp": 19,
+    "shapes": [
+      "6322",
+      "6232",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 9,
+    "shapes": [
+      "1552",
+      "3532",
+      "2542",
+      "3541"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "3D",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "1543"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "3D",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "1543"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "1552",
+      "3532",
+      "2542",
+      "3541"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 15,
+    "shapes": [
+      "3532",
+      "3541",
+      "2524",
+      "4522"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1S",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 9,
+    "shapes": [
+      "5332",
+      "5341",
+      "5224",
+      "5152"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "3D",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5332",
+      "5242",
+      "5143"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "3D",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5332",
+      "5242",
+      "5143"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1S",
+      "3D",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5332",
+      "5242",
+      "5143"
+    ]
+  },
+  {
+    "source_file": "1M_5CardRaise.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1S",
+      "3D",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5341",
+      "5224",
+      "5422"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2D"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3163",
+      "2164"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2524",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3163",
+      "2164"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2524",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H",
+      "2N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 6,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H",
+      "2N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "2524"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "2524"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2H",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "2524"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "1624",
+      "2614"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "3343"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "3343"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "2524",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2623",
+      "2632"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5242",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2623",
+      "2632"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5242",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 6,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "5242"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "5242"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3442",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3442",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "5242",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "5242",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "6241",
+      "6124"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2434",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1H",
+      "1N",
+      "2H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2632",
+      "3622",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1H",
+      "1N",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "2632",
+      "3622",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1H",
+      "1N",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1H",
+      "1N",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "2632",
+      "3622",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1S",
+      "1N",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6232",
+      "6322",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1S",
+      "1N",
+      "2S",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "6232",
+      "6322",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1S",
+      "1N",
+      "2S",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1S",
+      "1N",
+      "2S",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "6232",
+      "6322",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand19",
+    "bids": [
+      "1S",
+      "1N",
+      "2H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5422",
+      "5521",
+      "5512"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand20",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5422",
+      "5521",
+      "5512"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand20",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2344",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand21",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand21",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "5422",
+      "5521",
+      "5512"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand22",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand22",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "5422",
+      "5521",
+      "5512"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand23",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "2353",
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand23",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "5521",
+      "5512"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand23",
+    "bids": [
+      "1S",
+      "1N",
+      "2H",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "2353",
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand24",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "3C",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 10,
+    "shapes": [
+      "3235",
+      "3136"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand24",
+    "bids": [
+      "1H",
+      "1N",
+      "2C",
+      "3C",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "2524"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand25",
+    "bids": [
+      "1H",
+      "1N",
+      "2D",
+      "3D",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 10,
+    "shapes": [
+      "3253",
+      "3163"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand25",
+    "bids": [
+      "1H",
+      "1N",
+      "2D",
+      "3D",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "2542"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand26",
+    "bids": [
+      "1H",
+      "1N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "2632",
+      "3622",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand26",
+    "bids": [
+      "1H",
+      "1N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand27",
+    "bids": [
+      "1S",
+      "1N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "6232",
+      "6322",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "1M_ForcingNT.xml",
+    "template_name": "Hand27",
+    "bids": [
+      "1S",
+      "1N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1H",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3334",
+      "2344",
+      "3352",
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "2H",
+      "3C",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 6,
+    "shapes": [
+      "3343",
+      "2344",
+      "3343"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "2H",
+      "3C",
+      "3H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "1534",
+      "1525",
+      "3514"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1H",
+      "2H",
+      "3C",
+      "3H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 6,
+    "shapes": [
+      "3343",
+      "2344",
+      "3343"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "2H",
+      "3C",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "1534",
+      "1525",
+      "3514"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "2H",
+      "3C",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3325",
+      "2335",
+      "3334",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1H",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 21,
+    "shapes": [
+      "3532",
+      "2632",
+      "2542",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "2S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3433",
+      "3343",
+      "3523",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1S",
+      "2S",
+      "3D",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 16,
+    "shapes": [
+      "5341",
+      "5143",
+      "5242"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1S",
+      "2S",
+      "3D",
+      "3S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 6,
+    "shapes": [
+      "3334",
+      "3244",
+      "3343",
+      "3433"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2S",
+      "3D",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "5143",
+      "5242",
+      "5341"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2S",
+      "3D",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3325",
+      "3235",
+      "3334",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1M_SimpleRaise.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 21,
+    "shapes": [
+      "5332",
+      "5422",
+      "5341",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1NT_Balanced.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "P"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 6,
+    "shapes": [
+      "4432",
+      "4414",
+      "3352",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "1NT_Balanced.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "3253",
+      "2335",
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Balanced.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3442",
+      "4324",
+      "3352",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "1NT_Balanced.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2N",
+      "P"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3442",
+      "4324",
+      "3352",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "1NT_Balanced.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "3253",
+      "2335",
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Balanced.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "3N",
+      "P"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3442",
+      "4324",
+      "3352",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 6,
+    "shapes": [
+      "2542",
+      "2632",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3631",
+      "1633",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3631",
+      "1633",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "3H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "3H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3334",
+      "4342",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3334",
+      "4342",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "4243",
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3631",
+      "1633",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "3631",
+      "1633",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3334",
+      "4342",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3N",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3N",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "3N",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3334",
+      "4342",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1N",
+      "2H",
+      "2S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 0,
+    "max_hcp": 6,
+    "shapes": [
+      "5233",
+      "5323",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N",
+      "3S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N",
+      "3S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3442",
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "2443",
+      "2344",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "2N",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3442",
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "6331",
+      "6313",
+      "6133"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "6331",
+      "6313",
+      "6133"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3334",
+      "4342",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3N",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3N",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1NT_Jacoby.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "3N",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3442",
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "4N",
+      "6N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 16,
+    "shapes": [
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "4N",
+      "6N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "4432",
+      "4423",
+      "3442",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "4N",
+      "P"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 16,
+    "shapes": [
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "4N",
+      "P"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "4333",
+      "3433",
+      "3343",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "6N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 18,
+    "shapes": [
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "7N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 24,
+    "shapes": [
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "5N",
+      "7N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "5N",
+      "7N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "4432",
+      "4423",
+      "3442",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "5N",
+      "6N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "5N",
+      "6N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "4333",
+      "3433",
+      "3343",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "4N",
+      "6H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "4432",
+      "4423",
+      "3442",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "4N",
+      "6N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 16,
+    "shapes": [
+      "3532",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "4N",
+      "6N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3244",
+      "4234",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "4N",
+      "P"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3244",
+      "4234",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "5N",
+      "6S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3244",
+      "4234",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "5N",
+      "7S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3244",
+      "4234",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "5N",
+      "6N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "5323",
+      "5233",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "5N",
+      "6N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "2344",
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "5N",
+      "7N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "5323",
+      "5233",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "5N",
+      "7N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "2344",
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "6S",
+      "6N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 18,
+    "shapes": [
+      "5323",
+      "5233",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "6S",
+      "6N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "2344",
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "6S",
+      "P"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 18,
+    "shapes": [
+      "5323",
+      "5233",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1N",
+      "2H",
+      "2S",
+      "6S",
+      "P"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3244",
+      "4234",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "7H",
+      "P"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 24,
+    "shapes": [
+      "3523",
+      "2533",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "7H",
+      "P"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "2344",
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "7H",
+      "7N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 24,
+    "shapes": [
+      "3523",
+      "2533",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "1NT_SlamBidding.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1N",
+      "2D",
+      "2H",
+      "7H",
+      "7N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3244",
+      "4234",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "2N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3352",
+      "3325",
+      "3343",
+      "3334",
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "3433",
+      "4333",
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "3433",
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3352",
+      "3325",
+      "3343",
+      "3334",
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "3433",
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3352",
+      "3325",
+      "3343",
+      "3334",
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3433",
+      "3424",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "4243",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "3433",
+      "3424",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3433",
+      "3424",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "4243",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3433",
+      "3424",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "4243",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3352",
+      "3325",
+      "2344",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "2C",
+      "2D",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3433",
+      "3424",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "4333",
+      "4342",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1N",
+      "2C",
+      "2H",
+      "3N",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1N",
+      "2C",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "4333",
+      "4324",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "1NT_Stayman.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1N",
+      "2C",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 13,
+    "shapes": [
+      "3433",
+      "3424",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1NT_Texas.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1N",
+      "4D",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "3631",
+      "1633",
+      "3613",
+      "2722",
+      "2731"
+    ]
+  },
+  {
+    "source_file": "1NT_Texas.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1N",
+      "4H",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "6331",
+      "6133",
+      "6313",
+      "7222",
+      "7231"
+    ]
+  },
+  {
+    "source_file": "1NT_Texas.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1N",
+      "4D",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "3631",
+      "1633",
+      "3613",
+      "2722",
+      "2731"
+    ]
+  },
+  {
+    "source_file": "1NT_Texas.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1N",
+      "4D",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "3631",
+      "1633",
+      "3613",
+      "2722",
+      "2731"
+    ]
+  },
+  {
+    "source_file": "1NT_Texas.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1N",
+      "4H",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "6331",
+      "6133",
+      "6313",
+      "7222",
+      "7231"
+    ]
+  },
+  {
+    "source_file": "1NT_Texas.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1N",
+      "4H",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "6331",
+      "6133",
+      "6313",
+      "7222",
+      "7231"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1H",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "4432",
+      "3433",
+      "4522",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1H",
+      "2H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4423",
+      "3433",
+      "2425"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3442",
+      "3541",
+      "2443",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "3H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "4423",
+      "3433",
+      "2425"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "3H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3442",
+      "3541",
+      "2443",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "3H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "4423",
+      "3433",
+      "2425"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4423",
+      "3424",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3442",
+      "3541",
+      "2443",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "1H",
+      "2H",
+      "3D",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4423",
+      "3424",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1C",
+      "1H",
+      "3H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "1435",
+      "3415",
+      "2425"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1C",
+      "1H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "1435",
+      "3415",
+      "2425"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1C",
+      "1H",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 13,
+    "shapes": [
+      "4432",
+      "3433",
+      "4522",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1C",
+      "1H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3433",
+      "2425",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4342",
+      "4252",
+      "4144",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4432",
+      "4423",
+      "4441",
+      "4522"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2S",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "4351",
+      "4252",
+      "4144",
+      "4153"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2S",
+      "3S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 8,
+    "max_hcp": 8,
+    "shapes": [
+      "4432",
+      "4423",
+      "4441",
+      "4522"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2S",
+      "3S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "4351",
+      "4252",
+      "4144",
+      "4153"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "3S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "4432",
+      "4423",
+      "4441",
+      "4522"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 13,
+    "shapes": [
+      "4432",
+      "4423",
+      "4441",
+      "4522"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "1N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4342",
+      "4252",
+      "4144",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "1N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3433",
+      "3424",
+      "3532",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "3424",
+      "3532",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "3424",
+      "3532",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4252",
+      "4144",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3451",
+      "3442",
+      "1453",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "3442",
+      "4432",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "3442",
+      "4432",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3244",
+      "2353",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "3442",
+      "4432",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "3442",
+      "4432",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 7,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3244",
+      "2353",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3244",
+      "2353",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_4cM.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3433",
+      "3442",
+      "4432",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1D",
+      "1S",
+      "1N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "5332",
+      "5224",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1D",
+      "1S",
+      "1N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3442",
+      "2353",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5332",
+      "5224",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5332",
+      "5224",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5332",
+      "5224",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5422",
+      "5431",
+      "5413"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5422",
+      "5431",
+      "5413"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5422",
+      "5431",
+      "5413"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5224",
+      "5233",
+      "5422"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3442",
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5224",
+      "5233",
+      "5422"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5422",
+      "5431",
+      "5413"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "1453",
+      "2443",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5422",
+      "5431",
+      "5413"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5242",
+      "5314",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "1444",
+      "2443",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5242",
+      "5314",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5242",
+      "5314",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "4333",
+      "4324",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4333",
+      "4315",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4234",
+      "4225",
+      "4135"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4324",
+      "4315",
+      "4333"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4234",
+      "4135",
+      "4225"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 13,
+    "shapes": [
+      "3532",
+      "2542",
+      "3541",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1C",
+      "1H",
+      "1N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1C",
+      "1H",
+      "1N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3334",
+      "3235",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "2H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3334",
+      "3325",
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3235",
+      "2245"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "3C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "1525",
+      "2515",
+      "0535"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "3C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3334",
+      "3325",
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "3D",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2551",
+      "1552",
+      "0553"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1C",
+      "1H",
+      "1N",
+      "3D",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3235"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand19",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5521",
+      "5512",
+      "5530"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand19",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "2452",
+      "2443",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand20",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "3H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5521",
+      "5512",
+      "5530"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand20",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "3H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand21",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "3C",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "5521",
+      "5512",
+      "5530"
+    ]
+  },
+  {
+    "source_file": "1m_5cM.xml",
+    "template_name": "Hand21",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "3C",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3442",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "3H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2C",
+      "2D",
+      "3H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2623",
+      "2614",
+      "1633"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2623",
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2623",
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2623",
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2623",
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2623",
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2623",
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "2D",
+      "2N",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 7,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3244",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "1N",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "3S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2C",
+      "2D",
+      "3S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2N",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 7,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "2335"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3235",
+      "3424",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "1m_6cM.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1S",
+      "1N",
+      "2D",
+      "2S",
+      "4S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6223",
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "2C",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2335",
+      "3235",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "2C",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3334",
+      "4324",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "2C",
+      "3C",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 13,
+    "max_hcp": 15,
+    "shapes": [
+      "2335",
+      "3235",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "2C",
+      "3C",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "2326",
+      "3226",
+      "3316"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "2C",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 13,
+    "max_hcp": 15,
+    "shapes": [
+      "3145",
+      "3235"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "2C",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "2425",
+      "3415"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1C",
+      "2C",
+      "2D",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3334",
+      "4333",
+      "3433"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "2D",
+      "2N",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3343",
+      "4243",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "2D",
+      "3D",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "2D",
+      "3D",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3163",
+      "1363",
+      "3361"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1D",
+      "2D",
+      "2H",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "2443",
+      "1453",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1D",
+      "2D",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3253",
+      "2353",
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "1m_invertedminor.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1D",
+      "2D",
+      "2S",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 14,
+    "max_hcp": 17,
+    "shapes": [
+      "4144",
+      "4153"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 4,
+    "max_hcp": 5,
+    "shapes": [
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "5332",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 4,
+    "max_hcp": 5,
+    "shapes": [
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 4,
+    "max_hcp": 5,
+    "shapes": [
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "5332",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 4,
+    "max_hcp": 5,
+    "shapes": [
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 4,
+    "max_hcp": 5,
+    "shapes": [
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "5332",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2C",
+      "2D",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 4,
+    "max_hcp": 5,
+    "shapes": [
+      "3244",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "2C",
+      "2D",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "6322",
+      "6232",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "2C",
+      "2D",
+      "3C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "2227",
+      "2326"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "2C",
+      "2H",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 10,
+    "shapes": [
+      "2632",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "2C",
+      "2H",
+      "3H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "3334",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "2C",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 9,
+    "max_hcp": 10,
+    "shapes": [
+      "6232",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "2C",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 22,
+    "max_hcp": 23,
+    "shapes": [
+      "2344",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "2C.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "2C",
+      "2N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "3352",
+      "3334",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2N",
+      "3C",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 1,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 21,
+    "shapes": [
+      "5332",
+      "5233",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2N",
+      "3C",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "3334",
+      "3244",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2N",
+      "3C",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 21,
+    "shapes": [
+      "5332",
+      "5233",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2N",
+      "3C",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "3334",
+      "3244",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2N",
+      "3C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 1,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 21,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2N",
+      "3C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "3334",
+      "2344",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2N",
+      "3C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 21,
+    "shapes": [
+      "3532",
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2N",
+      "3C",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "3334",
+      "2344",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 21,
+    "max_hcp": 21,
+    "shapes": [
+      "4324",
+      "4234",
+      "4432"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "4234",
+      "4243",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3H",
+      "3S",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 21,
+    "max_hcp": 21,
+    "shapes": [
+      "4324",
+      "4234",
+      "4432"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3H",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "4234",
+      "4243",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3H",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 21,
+    "max_hcp": 21,
+    "shapes": [
+      "3424",
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3S",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2434",
+      "2443",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "3S",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 21,
+    "max_hcp": 21,
+    "shapes": [
+      "3424",
+      "2434",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "4D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 21,
+    "max_hcp": 21,
+    "shapes": [
+      "3424",
+      "2434",
+      "4432"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "2N",
+      "3C",
+      "3D",
+      "4D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "4432",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "2N",
+      "4D"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2623",
+      "3622",
+      "2632"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "2N",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "6322",
+      "6232",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "2N",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2245",
+      "2254"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "2N",
+      "3H",
+      "3S",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "5332",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "2N",
+      "3D",
+      "3H",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "2NT.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "2N",
+      "3D",
+      "3H",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 8,
+    "shapes": [
+      "2533",
+      "3523"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2H",
+      "P",
+      "P"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "3532",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2H",
+      "P",
+      "P"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3352",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2H",
+      "P",
+      "P"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 12,
+    "shapes": [
+      "3532",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "P",
+      "2C",
+      "P",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 10,
+    "shapes": [
+      "3532",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "P",
+      "2C",
+      "P",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3352",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "P",
+      "2C",
+      "P",
+      "2H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 10,
+    "shapes": [
+      "3532",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "1H",
+      "P",
+      "3C"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4441",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "4513",
+      "2515"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "2D",
+      "2S",
+      "3D"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 13,
+    "shapes": [
+      "2362",
+      "1363",
+      "2254"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "2D",
+      "2S",
+      "3D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "3235",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "P",
+      "1N",
+      "P",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 11,
+    "shapes": [
+      "2353",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "P",
+      "1N",
+      "P",
+      "2N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "5323",
+      "5224"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 14,
+    "shapes": [
+      "3523",
+      "2524"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "2353",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "3H",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 15,
+    "shapes": [
+      "6322",
+      "6232",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "3H",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 10,
+    "shapes": [
+      "4243",
+      "3253"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "P",
+      "1S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 11,
+    "shapes": [
+      "5233",
+      "6124"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1C",
+      "1H",
+      "P",
+      "2D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 12,
+    "shapes": [
+      "3253",
+      "3163"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "2D",
+      "2H",
+      "2S",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 13,
+    "shapes": [
+      "3622",
+      "2632",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "2D",
+      "2H",
+      "2S",
+      "3H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "3343",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1D",
+      "1H",
+      "P",
+      "2N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "3253",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1D",
+      "1H",
+      "P",
+      "2N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "5323",
+      "5224"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "1N",
+      "P",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3244",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "1N",
+      "P",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 0,
+    "max_hcp": 6,
+    "shapes": [
+      "5323",
+      "6223",
+      "6313"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "1N",
+      "P",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3244",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1D",
+      "1N",
+      "P",
+      "2C",
+      "P",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3442",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1D",
+      "1N",
+      "P",
+      "2C",
+      "P",
+      "2H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "2434",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1D",
+      "1N",
+      "P",
+      "2C",
+      "P",
+      "2H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "3442",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1S",
+      "1N",
+      "P",
+      "4D"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "4342",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1S",
+      "1N",
+      "P",
+      "4D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2632",
+      "2731"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1C",
+      "P",
+      "P",
+      "1N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 15,
+    "shapes": [
+      "2434",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "2S",
+      "2N",
+      "P",
+      "3C"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 17,
+    "shapes": [
+      "4342",
+      "4243"
+    ]
+  },
+  {
+    "source_file": "Inteferer_DirectOvercall.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "2S",
+      "2N",
+      "P",
+      "3C"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3325",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "1H",
+      "P",
+      "P"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "1H",
+      "P",
+      "P"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 0,
+    "max_hcp": 7,
+    "shapes": [
+      "3424",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "1H",
+      "P",
+      "P"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3442"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "4441",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 10,
+    "shapes": [
+      "3424",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "4441",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "X",
+      "1S",
+      "P"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "4441",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "X",
+      "1S",
+      "P"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 2,
+    "max_hcp": 4,
+    "shapes": [
+      "3424",
+      "3532"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "X",
+      "1H",
+      "1S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "4414",
+      "3415"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "X",
+      "1H",
+      "1S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 7,
+    "max_hcp": 8,
+    "shapes": [
+      "4324",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "2D"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 15,
+    "shapes": [
+      "4414",
+      "3415"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "2D"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "4423",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "1N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3343",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1H",
+      "X",
+      "P",
+      "2N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "3433",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "X",
+      "P",
+      "3N"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "4333",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "X",
+      "P",
+      "P"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3226",
+      "2326"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1C",
+      "X",
+      "1H",
+      "2S"
+    ],
+    "tested_position": 4,
+    "tested_seat": "W",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "4324",
+      "5332"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1C",
+      "X"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 17,
+    "max_hcp": 20,
+    "shapes": [
+      "6331",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "1S",
+      "P",
+      "2H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 17,
+    "max_hcp": 20,
+    "shapes": [
+      "3631",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "1S",
+      "P",
+      "2H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 17,
+    "max_hcp": 20,
+    "shapes": [
+      "3631",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "2N",
+      "P",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3631",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "2N",
+      "P",
+      "4H"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 17,
+    "max_hcp": 17,
+    "shapes": [
+      "3631",
+      "3622"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "1H",
+      "P",
+      "1N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3244",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1D",
+      "X",
+      "P",
+      "1H",
+      "P",
+      "1N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3244",
+      "2353"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1H",
+      "X",
+      "P",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3424",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Inteferer_Double.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1H",
+      "X",
+      "P",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 6,
+    "tested_seat": "E",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3424",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1S",
+      "2C",
+      "3C",
+      "P",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3442",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1S",
+      "2C",
+      "3C",
+      "P",
+      "3S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "5332",
+      "5233",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1S",
+      "2C",
+      "3C",
+      "P",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "3244",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1S",
+      "2C",
+      "3C",
+      "P",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "6331",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "2D",
+      "3D",
+      "P",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2344",
+      "4423"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "2D",
+      "3D",
+      "P",
+      "3S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "3613",
+      "2614"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1H",
+      "2S",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "1444",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1C",
+      "1S",
+      "2S",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "2245",
+      "1336"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1C",
+      "1S",
+      "2S",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4234",
+      "4333"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1H",
+      "2H",
+      "P",
+      "3D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "3244",
+      "3154"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1H",
+      "2H",
+      "P",
+      "3D"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "2263",
+      "3154"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2H",
+      "3H",
+      "P",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "3244",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2H",
+      "3H",
+      "P",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "5233",
+      "5332",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1S",
+      "2H",
+      "3H",
+      "P",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "3244",
+      "3334"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "2H",
+      "4H",
+      "P",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "4144",
+      "5134"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1S",
+      "2H",
+      "4H",
+      "P",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "5233",
+      "5332",
+      "5323"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1H",
+      "1S",
+      "3S",
+      "P",
+      "4C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "1444",
+      "1453"
+    ]
+  },
+  {
+    "source_file": "Interferee_CuebidRaise.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1H",
+      "1S",
+      "3S",
+      "P",
+      "4C"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 20,
+    "shapes": [
+      "3541",
+      "3631"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1S",
+      "2D",
+      "P",
+      "3D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "2362",
+      "1354",
+      "2263"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1S",
+      "2D",
+      "P",
+      "3D"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "1345",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1S",
+      "2H",
+      "P",
+      "3H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "2632",
+      "2542"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1S",
+      "2H",
+      "P",
+      "3H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3325",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1S",
+      "2H",
+      "P",
+      "3H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "2632",
+      "2542"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "2C",
+      "2S",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "5233",
+      "6232"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1H",
+      "2C",
+      "2S",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "2524",
+      "1534"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1S",
+      "2D",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "2533",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1S",
+      "2D",
+      "2H",
+      "P",
+      "2S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "6232",
+      "6223",
+      "5242"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "2D",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "2533",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1S",
+      "2D",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "5314",
+      "5422",
+      "6322"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1S",
+      "3C",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2353",
+      "2362"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1S",
+      "3C",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "6322",
+      "5224"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1C",
+      "2D",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "2632",
+      "1534",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1C",
+      "2D",
+      "2H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "4324",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "2D",
+      "2S",
+      "P",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6232",
+      "5134",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "2D",
+      "2S",
+      "P",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3424",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "2D",
+      "2S",
+      "P",
+      "3S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "6232",
+      "5134",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "2D",
+      "P",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "2461",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "2D",
+      "P",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "1345",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "1H",
+      "2D",
+      "P",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "2461",
+      "3451"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1S",
+      "2H",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2353",
+      "2263"
+    ]
+  },
+  {
+    "source_file": "Interferee_Freebid.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1S",
+      "2H",
+      "3D",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 16,
+    "shapes": [
+      "5422",
+      "5512"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1D",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "4423",
+      "4414",
+      "4441"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1H",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "4324",
+      "4234",
+      "4252"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1C",
+      "1S",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3424",
+      "2434",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1C",
+      "2D",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3424",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1H",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "4324",
+      "4234",
+      "4252"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1D",
+      "1S",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3424",
+      "2434",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1D",
+      "2C",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3433",
+      "4342",
+      "4441"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1H",
+      "1S",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 8,
+    "max_hcp": 9,
+    "shapes": [
+      "3244",
+      "2245",
+      "2254"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "2H",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "4324",
+      "4234",
+      "4252"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1C",
+      "2S",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3424",
+      "2434",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1D",
+      "2H",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "4324",
+      "4234",
+      "4252"
+    ]
+  },
+  {
+    "source_file": "Interferee_NegativeX.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1D",
+      "2S",
+      "X"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 14,
+    "shapes": [
+      "4432",
+      "3424",
+      "2434",
+      "2452"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1D",
+      "1H",
+      "P",
+      "1N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3433",
+      "3442",
+      "2434"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "1C",
+      "1D",
+      "1H",
+      "P",
+      "1N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3334",
+      "3235"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1D",
+      "1S",
+      "P",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "4342",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "1C",
+      "1D",
+      "1S",
+      "P",
+      "2S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4333",
+      "4225"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2H",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "5332",
+      "5224"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "2H",
+      "2S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "3253",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3433",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "1D",
+      "1H",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3343",
+      "3253",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1S",
+      "2N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "4333",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "1D",
+      "1S",
+      "2N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 14,
+    "max_hcp": 14,
+    "shapes": [
+      "3343",
+      "2353",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "1C",
+      "1S",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "4333",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "1C",
+      "1H",
+      "1S",
+      "2H",
+      "3S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 16,
+    "max_hcp": 17,
+    "shapes": [
+      "4225",
+      "3136"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1D",
+      "1H",
+      "P",
+      "1N",
+      "P",
+      "2D",
+      "P",
+      "2H"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 14,
+    "shapes": [
+      "3532",
+      "2542",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "1C",
+      "1D",
+      "1H",
+      "P",
+      "1N",
+      "P",
+      "2D",
+      "P",
+      "2H"
+    ],
+    "tested_position": 9,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "3334",
+      "3325"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "1C",
+      "2S",
+      "2N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "4333",
+      "4324"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "P",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "2452",
+      "2443"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "1D",
+      "1H",
+      "1S",
+      "P",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 13,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5224"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1C",
+      "1D",
+      "1S",
+      "P",
+      "1N",
+      "P",
+      "2C",
+      "P",
+      "2D",
+      "P",
+      "2N"
+    ],
+    "tested_position": 7,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "4333",
+      "4342",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand11",
+    "bids": [
+      "1C",
+      "1D",
+      "1S",
+      "P",
+      "1N",
+      "P",
+      "2C",
+      "P",
+      "2D",
+      "P",
+      "2N"
+    ],
+    "tested_position": 11,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 11,
+    "max_hcp": 11,
+    "shapes": [
+      "4333",
+      "4342",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1C",
+      "1D",
+      "2S",
+      "P",
+      "P"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 5,
+    "max_hcp": 6,
+    "shapes": [
+      "6322",
+      "6223",
+      "6232"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand12",
+    "bids": [
+      "1C",
+      "1D",
+      "2S",
+      "P",
+      "P"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "1345",
+      "1444"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "X",
+      "2H",
+      "P",
+      "P"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 5,
+    "max_hcp": 6,
+    "shapes": [
+      "3622",
+      "2623",
+      "2632"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand13",
+    "bids": [
+      "1D",
+      "X",
+      "2H",
+      "P",
+      "P"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 12,
+    "shapes": [
+      "3145",
+      "4144"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1C",
+      "X",
+      "1S",
+      "P",
+      "2S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "4333",
+      "4342",
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand14",
+    "bids": [
+      "1C",
+      "X",
+      "1S",
+      "P",
+      "2S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 12,
+    "max_hcp": 14,
+    "shapes": [
+      "4333",
+      "4225"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1D",
+      "X",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 9,
+    "max_hcp": 9,
+    "shapes": [
+      "3433",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand15",
+    "bids": [
+      "1D",
+      "X",
+      "1N",
+      "P",
+      "3N"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3343",
+      "3253",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1S",
+      "X",
+      "3S",
+      "P",
+      "P"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 5,
+    "max_hcp": 6,
+    "shapes": [
+      "4342",
+      "4144"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand16",
+    "bids": [
+      "1S",
+      "X",
+      "3S",
+      "P",
+      "P"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 15,
+    "max_hcp": 15,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1H",
+      "1S",
+      "3H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 5,
+    "max_hcp": 6,
+    "shapes": [
+      "2443",
+      "1444"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand17",
+    "bids": [
+      "1H",
+      "1S",
+      "3H",
+      "P",
+      "4H"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "3532",
+      "3523",
+      "2533"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand18",
+    "bids": [
+      "1D",
+      "1S",
+      "3D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 5,
+    "max_hcp": 6,
+    "shapes": [
+      "1354",
+      "2263"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand19",
+    "bids": [
+      "1D",
+      "1S",
+      "2D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3343",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand20",
+    "bids": [
+      "1D",
+      "1S",
+      "3C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 7,
+    "shapes": [
+      "1336",
+      "1237"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand21",
+    "bids": [
+      "1S",
+      "X",
+      "2S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "3442",
+      "3244"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand21",
+    "bids": [
+      "1S",
+      "X",
+      "2S",
+      "P",
+      "4S"
+    ],
+    "tested_position": 5,
+    "tested_seat": "N",
+    "is_constructive": false,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "5332",
+      "5323",
+      "5233"
+    ]
+  },
+  {
+    "source_file": "Interferee_Regular.xml",
+    "template_name": "Hand22",
+    "bids": [
+      "1H",
+      "2C",
+      "2H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "S",
+    "is_constructive": false,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "4342",
+      "2344"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2H",
+      "P"
+    ],
+    "tested_position": 1,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "2632",
+      "2623"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand1",
+    "bids": [
+      "2H",
+      "P"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 10,
+    "max_hcp": 11,
+    "shapes": [
+      "5233",
+      "6133"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2S",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "3532",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand2",
+    "bids": [
+      "2S",
+      "2N",
+      "3C"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "6331",
+      "6241"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2S",
+      "2N",
+      "3D"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "3532",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand3",
+    "bids": [
+      "2S",
+      "2N",
+      "3D"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "6313",
+      "6214"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand4",
+    "bids": [
+      "2H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "1444"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand5",
+    "bids": [
+      "2S",
+      "4S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 18,
+    "max_hcp": 19,
+    "shapes": [
+      "4234"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand6",
+    "bids": [
+      "2S",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "1444"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand7",
+    "bids": [
+      "2H",
+      "3N"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 20,
+    "max_hcp": 20,
+    "shapes": [
+      "4144"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "2S",
+      "2N",
+      "3S"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 15,
+    "max_hcp": 16,
+    "shapes": [
+      "3532",
+      "3424"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand8",
+    "bids": [
+      "2S",
+      "2N",
+      "3S"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "6322",
+      "6223"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand9",
+    "bids": [
+      "2H",
+      "2S",
+      "3H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 18,
+    "shapes": [
+      "6133",
+      "5134"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "2S",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 2,
+    "tested_seat": "S",
+    "is_constructive": true,
+    "min_hcp": 17,
+    "max_hcp": 18,
+    "shapes": [
+      "1633",
+      "1534"
+    ]
+  },
+  {
+    "source_file": "Preempts.xml",
+    "template_name": "Hand10",
+    "bids": [
+      "2S",
+      "3H",
+      "4H"
+    ],
+    "tested_position": 3,
+    "tested_seat": "N",
+    "is_constructive": true,
+    "min_hcp": 6,
+    "max_hcp": 9,
+    "shapes": [
+      "6313",
+      "6322"
+    ]
+  }
+]
