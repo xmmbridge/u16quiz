@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAuctionModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand1</Name>
+    <Auction>1H 3C 
+3H </Auction>
+    <Bids>
+      <string>1H</string>
+      <string>3C</string>
+      <string>3H</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>12</MinHCP>
+      <MaxHCP>14</MaxHCP>
+      <Shape>
+        <string>3532</string>
+        <string>2533</string>
+        <string>3523</string>
+      </Shape>
+      <ShapeString>3532
+2533
+3523</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>6</MinHCP>
+      <MaxHCP>9</MaxHCP>
+      <Shape>
+        <string>2443</string>
+        <string>4423</string>
+        <string>3424</string>
+      </Shape>
+      <ShapeString>2443
+4423
+3424</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand2</Name>
+    <Auction>1H 3C 
+4H </Auction>
+    <Bids>
+      <string>1H</string>
+      <string>3C</string>
+      <string>4H</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>18</MinHCP>
+      <MaxHCP>19</MaxHCP>
+      <Shape>
+        <string>3532</string>
+        <string>2533</string>
+        <string>3523</string>
+      </Shape>
+      <ShapeString>3532
+2533
+3523</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>6</MinHCP>
+      <MaxHCP>9</MaxHCP>
+      <Shape>
+        <string>2443</string>
+        <string>4423</string>
+        <string>3424</string>
+      </Shape>
+      <ShapeString>2443
+4423
+3424</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand3</Name>
+    <Auction>1S 3C 
+3S </Auction>
+    <Bids>
+      <string>1S</string>
+      <string>3C</string>
+      <string>3S</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>12</MinHCP>
+      <MaxHCP>14</MaxHCP>
+      <Shape>
+        <string>5332</string>
+        <string>2533</string>
+        <string>5323</string>
+      </Shape>
+      <ShapeString>5332
+2533
+5323</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>6</MinHCP>
+      <MaxHCP>9</MaxHCP>
+      <Shape>
+        <string>4243</string>
+        <string>4423</string>
+        <string>4324</string>
+      </Shape>
+      <ShapeString>4243
+4423
+4324</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand4</Name>
+    <Auction>1S 3C 
+4S </Auction>
+    <Bids>
+      <string>1S</string>
+      <string>3C</string>
+      <string>4S</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>18</MinHCP>
+      <MaxHCP>19</MaxHCP>
+      <Shape>
+        <string>5332</string>
+        <string>2533</string>
+        <string>5323</string>
+      </Shape>
+      <ShapeString>5332
+2533
+5323</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>6</MinHCP>
+      <MaxHCP>9</MaxHCP>
+      <Shape>
+        <string>4243</string>
+        <string>4423</string>
+        <string>4324</string>
+      </Shape>
+      <ShapeString>4243
+4423
+4324</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand5</Name>
+    <Auction>1H 3D 
+3H </Auction>
+    <Bids>
+      <string>1H</string>
+      <string>3D</string>
+      <string>3H</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>12</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>3532</string>
+        <string>2533</string>
+        <string>3523</string>
+      </Shape>
+      <ShapeString>3532
+2533
+3523</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>11</MaxHCP>
+      <Shape>
+        <string>2443</string>
+        <string>4423</string>
+        <string>3424</string>
+      </Shape>
+      <ShapeString>2443
+4423
+3424</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand6</Name>
+    <Auction>1H 3D 
+4H </Auction>
+    <Bids>
+      <string>1H</string>
+      <string>3D</string>
+      <string>4H</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>14</MinHCP>
+      <MaxHCP>14</MaxHCP>
+      <Shape>
+        <string>3532</string>
+        <string>2533</string>
+        <string>3523</string>
+      </Shape>
+      <ShapeString>3532
+2533
+3523</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>11</MaxHCP>
+      <Shape>
+        <string>2443</string>
+        <string>4423</string>
+        <string>3424</string>
+      </Shape>
+      <ShapeString>2443
+4423
+3424</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand7</Name>
+    <Auction>1S 3D 
+3S </Auction>
+    <Bids>
+      <string>1S</string>
+      <string>3D</string>
+      <string>3S</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>12</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>5332</string>
+        <string>2533</string>
+        <string>5323</string>
+      </Shape>
+      <ShapeString>5332
+2533
+5323</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>11</MaxHCP>
+      <Shape>
+        <string>4243</string>
+        <string>4423</string>
+        <string>4324</string>
+      </Shape>
+      <ShapeString>4243
+4423
+4324</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand8</Name>
+    <Auction>1S 3D 
+4S </Auction>
+    <Bids>
+      <string>1S</string>
+      <string>3D</string>
+      <string>4S</string>
+    </Bids>
+    <TestingPosition>2 3 </TestingPosition>
+    <Testable>
+      <int>2</int>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>14</MinHCP>
+      <MaxHCP>14</MaxHCP>
+      <Shape>
+        <string>5332</string>
+        <string>2533</string>
+        <string>5323</string>
+      </Shape>
+      <ShapeString>5332
+2533
+5323</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>11</MaxHCP>
+      <Shape>
+        <string>4243</string>
+        <string>4423</string>
+        <string>4324</string>
+      </Shape>
+      <ShapeString>4243
+4423
+4324</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand9</Name>
+    <Auction>1H 3H 
+</Auction>
+    <Bids>
+      <string>1H</string>
+      <string>3H</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>12</MinHCP>
+      <MaxHCP>14</MaxHCP>
+      <Shape>
+        <string>3532</string>
+        <string>2533</string>
+        <string>3523</string>
+      </Shape>
+      <ShapeString>3532
+2533
+3523</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>5</MaxHCP>
+      <Shape>
+        <string>2443</string>
+        <string>4423</string>
+        <string>3424</string>
+      </Shape>
+      <ShapeString>2443
+4423
+3424</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand10</Name>
+    <Auction>1H 3H 
+4H </Auction>
+    <Bids>
+      <string>1H</string>
+      <string>3H</string>
+      <string>4H</string>
+    </Bids>
+    <TestingPosition>3 </TestingPosition>
+    <Testable>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>19</MinHCP>
+      <MaxHCP>19</MaxHCP>
+      <Shape>
+        <string>3622</string>
+        <string>2623</string>
+        <string>2623</string>
+      </Shape>
+      <ShapeString>3622
+2623
+2623</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>5</MaxHCP>
+      <Shape>
+        <string>2443</string>
+        <string>4423</string>
+        <string>3424</string>
+      </Shape>
+      <ShapeString>2443
+4423
+3424</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand11</Name>
+    <Auction>1S 3S 
+</Auction>
+    <Bids>
+      <string>1S</string>
+      <string>3S</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>12</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>5332</string>
+        <string>2533</string>
+        <string>5323</string>
+      </Shape>
+      <ShapeString>5332
+2533
+5323</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>5</MaxHCP>
+      <Shape>
+        <string>4243</string>
+        <string>4423</string>
+        <string>4324</string>
+      </Shape>
+      <ShapeString>4243
+4423
+4324</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1MOpening</string>
+      <string>4cRaiseNonGF</string>
+    </Genre>
+    <Name>Hand12</Name>
+    <Auction>1S 3S 
+4S </Auction>
+    <Bids>
+      <string>1S</string>
+      <string>3S</string>
+      <string>4S</string>
+    </Bids>
+    <TestingPosition>3 </TestingPosition>
+    <Testable>
+      <int>3</int>
+    </Testable>
+    <Opener>
+      <MinHCP>19</MinHCP>
+      <MaxHCP>19</MaxHCP>
+      <Shape>
+        <string>6322</string>
+        <string>6232</string>
+        <string>6223</string>
+      </Shape>
+      <ShapeString>6322
+6232
+6223</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>5</MaxHCP>
+      <Shape>
+        <string>4243</string>
+        <string>4423</string>
+        <string>4324</string>
+      </Shape>
+      <ShapeString>4243
+4423
+4324</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+</ArrayOfAuctionModel>

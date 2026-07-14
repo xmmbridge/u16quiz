@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAuctionModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AuctionModel>
+    <Genre>
+      <string>1NTOpening</string>
+      <string>TexasTransfer</string>
+    </Genre>
+    <Name>Hand1</Name>
+    <Auction>1N 4D 
+4H </Auction>
+    <Bids>
+      <string>1N</string>
+      <string>4D</string>
+      <string>4H</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>15</MinHCP>
+      <MaxHCP>17</MaxHCP>
+      <Shape>
+        <string>4234</string>
+        <string>3253</string>
+        <string>3343</string>
+        <string>3433</string>
+      </Shape>
+      <ShapeString>4234
+3253
+3343
+3433</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>3631</string>
+        <string>1633</string>
+        <string>3613</string>
+        <string>2722</string>
+        <string>2731</string>
+      </Shape>
+      <ShapeString>3631
+1633
+3613
+2722
+2731</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1NTOpening</string>
+      <string>TexasTransfer</string>
+    </Genre>
+    <Name>Hand2</Name>
+    <Auction>1N 4H 
+4S </Auction>
+    <Bids>
+      <string>1N</string>
+      <string>4H</string>
+      <string>4S</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>15</MinHCP>
+      <MaxHCP>17</MaxHCP>
+      <Shape>
+        <string>4234</string>
+        <string>3253</string>
+        <string>3343</string>
+        <string>3433</string>
+      </Shape>
+      <ShapeString>4234
+3253
+3343
+3433</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>6331</string>
+        <string>6133</string>
+        <string>6313</string>
+        <string>7222</string>
+        <string>7231</string>
+      </Shape>
+      <ShapeString>6331
+6133
+6313
+7222
+7231</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1NTOpening</string>
+      <string>TexasTransfer</string>
+    </Genre>
+    <Name>Hand3</Name>
+    <Auction>1N 4D 
+4H </Auction>
+    <Bids>
+      <string>1N</string>
+      <string>4D</string>
+      <string>4H</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>15</MinHCP>
+      <MaxHCP>17</MaxHCP>
+      <Shape>
+        <string>4234</string>
+        <string>3253</string>
+        <string>3343</string>
+        <string>3433</string>
+      </Shape>
+      <ShapeString>4234
+3253
+3343
+3433</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>3631</string>
+        <string>1633</string>
+        <string>3613</string>
+        <string>2722</string>
+        <string>2731</string>
+      </Shape>
+      <ShapeString>3631
+1633
+3613
+2722
+2731</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1NTOpening</string>
+      <string>TexasTransfer</string>
+    </Genre>
+    <Name>Hand4</Name>
+    <Auction>1N 4D 
+4H </Auction>
+    <Bids>
+      <string>1N</string>
+      <string>4D</string>
+      <string>4H</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>15</MinHCP>
+      <MaxHCP>17</MaxHCP>
+      <Shape>
+        <string>4234</string>
+        <string>3253</string>
+        <string>3343</string>
+        <string>3433</string>
+      </Shape>
+      <ShapeString>4234
+3253
+3343
+3433</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>3631</string>
+        <string>1633</string>
+        <string>3613</string>
+        <string>2722</string>
+        <string>2731</string>
+      </Shape>
+      <ShapeString>3631
+1633
+3613
+2722
+2731</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1NTOpening</string>
+      <string>TexasTransfer</string>
+    </Genre>
+    <Name>Hand5</Name>
+    <Auction>1N 4H 
+4S </Auction>
+    <Bids>
+      <string>1N</string>
+      <string>4H</string>
+      <string>4S</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>15</MinHCP>
+      <MaxHCP>17</MaxHCP>
+      <Shape>
+        <string>4234</string>
+        <string>3253</string>
+        <string>3343</string>
+        <string>3433</string>
+      </Shape>
+      <ShapeString>4234
+3253
+3343
+3433</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>6331</string>
+        <string>6133</string>
+        <string>6313</string>
+        <string>7222</string>
+        <string>7231</string>
+      </Shape>
+      <ShapeString>6331
+6133
+6313
+7222
+7231</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+  <AuctionModel>
+    <Genre>
+      <string>1NTOpening</string>
+      <string>TexasTransfer</string>
+    </Genre>
+    <Name>Hand6</Name>
+    <Auction>1N 4H 
+4S </Auction>
+    <Bids>
+      <string>1N</string>
+      <string>4H</string>
+      <string>4S</string>
+    </Bids>
+    <TestingPosition>2 </TestingPosition>
+    <Testable>
+      <int>2</int>
+    </Testable>
+    <Opener>
+      <MinHCP>15</MinHCP>
+      <MaxHCP>17</MaxHCP>
+      <Shape>
+        <string>4234</string>
+        <string>3253</string>
+        <string>3343</string>
+        <string>3433</string>
+      </Shape>
+      <ShapeString>4234
+3253
+3343
+3433</ShapeString>
+    </Opener>
+    <Responder>
+      <MinHCP>10</MinHCP>
+      <MaxHCP>12</MaxHCP>
+      <Shape>
+        <string>6331</string>
+        <string>6133</string>
+        <string>6313</string>
+        <string>7222</string>
+        <string>7231</string>
+      </Shape>
+      <ShapeString>6331
+6133
+6313
+7222
+7231</ShapeString>
+    </Responder>
+    <Overcaller>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Overcaller>
+    <Advancer>
+      <MinHCP>0</MinHCP>
+      <MaxHCP>0</MaxHCP>
+      <Shape />
+      <ShapeString />
+    </Advancer>
+    <IsConstructive>true</IsConstructive>
+  </AuctionModel>
+</ArrayOfAuctionModel>

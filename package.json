@@ -1,0 +1,25 @@
+{
+  "name": "bridge-bidding-quiz",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "parse-templates": "node scripts/parseTemplates.mjs",
+    "generate-quizzes": "node scripts/generateQuizzes.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "dotenv": "^16.4.5",
+    "vite": "^5.4.6",
+    "xml2js": "^0.6.2"
+  }
+}

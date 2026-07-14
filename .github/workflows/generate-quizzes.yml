@@ -1,0 +1,42 @@
+name: Set up roster and generate quizzes
+
+# Run manually from the "Actions" tab on GitHub — no local install needed.
+on:
+  workflow_dispatch:
+    inputs:
+      end_date:
+        description: 'Generate quizzes through this date (YYYY-MM-DD). Leave blank for Sept 30 of this year.'
+        required: false
+        default: ''
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Load roster (students + teacher) into Supabase
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/upsertRoster.mjs
+
+      - name: Generate quizzes
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.end_date }}" ]; then
+            node scripts/generateQuizzes.mjs --end-date=${{ github.event.inputs.end_date }}
+          else
+            node scripts/generateQuizzes.mjs
+          fi

@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "name": "Teacher", "role": "teacher" },
+    { "name": "Student1", "role": "student" },
+    { "name": "Student2", "role": "student" },
+    { "name": "Student3", "role": "student" },
+    { "name": "Student4", "role": "student" },
+    { "name": "Student5", "role": "student" },
+    { "name": "Student6", "role": "student" }
+  ]
+}
