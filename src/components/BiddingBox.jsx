@@ -4,6 +4,7 @@ const SUIT_ORDER = ['C', 'D', 'H', 'S', 'N'];
 
 export default function BiddingBox({ legalOptions, selected, onSelect, disabled }) {
   const legalSet = new Set(legalOptions);
+  const selectedSet = new Set(Array.isArray(selected) ? selected : selected ? [selected] : []);
 
   return (
     <div className="bidding-box">
@@ -14,7 +15,7 @@ export default function BiddingBox({ legalOptions, selected, onSelect, disabled 
           return (
             <button
               key={token}
-              className={`bb-btn ${color} ${token === selected ? 'selected' : ''}`}
+              className={`bb-btn ${color} ${selectedSet.has(token) ? 'selected' : ''}`}
               disabled={disabled || !isLegal}
               onClick={(e) => { e.currentTarget.blur(); onSelect(token); }}
             >
@@ -32,7 +33,7 @@ export default function BiddingBox({ legalOptions, selected, onSelect, disabled 
             return (
               <button
                 key={token}
-                className={`bb-btn ${color} ${token === selected ? 'selected' : ''}`}
+                className={`bb-btn ${color} ${selectedSet.has(token) ? 'selected' : ''}`}
                 disabled={disabled || !isLegal}
                 onClick={(e) => { e.currentTarget.blur(); onSelect(token); }}
               >

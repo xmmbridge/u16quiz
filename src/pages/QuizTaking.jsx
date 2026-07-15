@@ -10,13 +10,15 @@ import BiddingBox from '../components/BiddingBox.jsx';
 export default function QuizTaking() {
   const { quizId } = useParams();
   const user = getSessionUser();
+  const isTeacher = user.role === 'teacher';
   const navigate = useNavigate();
-  const homePath = user.role === 'teacher' ? '/teacher' : '/student';
+  const homePath = isTeacher ? '/teacher' : '/student';
 
   const [quiz, setQuiz] = useState(null);
   const [questions, setQuestions] = useState(null);
   const [attempt, setAttempt] = useState(null);
-  const [answers, setAnswers] = useState({}); // quiz_question_id -> bid_given
+  const [answers, setAnswers] = useState({}); // student: quiz_question_id -> bid_given
+  const [acceptedByQuestion, setAcceptedByQuestion] = useState({}); // teacher: quiz_question_id -> Set(bid)
   const [viewIndex, setViewIndex] = useState(0);
   const [error, setError] = useState(null);
   const [submitting, setSubmitting] = useState(false);
@@ -58,11 +60,31 @@ export default function QuizTaking() {
       attemptRow = created;
     }
 
-    if (attemptRow.status === 'submitted' && user.role !== 'teacher') {
+    if (attemptRow.status === 'submitted' && !isTeacher) {
       navigate(`/student/results/${quizId}`, { replace: true });
       return;
     }
     setAttempt(attemptRow);
+
+    if (isTeacher) {
+      // Teachers grade by toggling any number of acceptable bids per question,
+      // so their "answer" is the full accepted_answers set, not a single pick.
+      const questionIds = qRows.map((q) => q.id);
+      const { data: acceptedRows, error: accErr } = await supabase
+        .from('accepted_answers')
+        .select('quiz_question_id, bid')
+        .in('quiz_question_id', questionIds.length ? questionIds : ['00000000-0000-0000-0000-000000000000']);
+      if (accErr) { setError(accErr.message); return; }
+      const acceptedMap = {};
+      for (const r of acceptedRows) {
+        acceptedMap[r.quiz_question_id] = acceptedMap[r.quiz_question_id] || new Set();
+        acceptedMap[r.quiz_question_id].add(r.bid);
+      }
+      setAcceptedByQuestion(acceptedMap);
+      const firstUnanswered = qRows.findIndex((q) => !acceptedMap[q.id]?.size);
+      setViewIndex(firstUnanswered === -1 ? qRows.length - 1 : firstUnanswered);
+      return;
+    }
 
     const { data: answerRows, error: ansErr } = await supabase
       .from('answers')
@@ -91,29 +113,6 @@ export default function QuizTaking() {
       );
     if (ansErr) { setError(ansErr.message); setSubmitting(false); return; }
 
-    if (user.role === 'teacher') {
-      // Drop any previous teacher-sourced pick for this question that isn't the new
-      // bid, so revising an answer doesn't leave a stale bid marked as accepted.
-      // Bids accepted via a student challenge are left alone.
-      const { error: delErr } = await supabase
-        .from('accepted_answers')
-        .delete()
-        .eq('quiz_question_id', q.id)
-        .eq('source', 'teacher')
-        .neq('bid', bid);
-      if (delErr) { setError(delErr.message); setSubmitting(false); return; }
-
-      // Ignore duplicate-key errors — it's fine if this exact bid was already
-      // accepted for this question (e.g. via a challenge).
-      const { error: keyErr } = await supabase
-        .from('accepted_answers')
-        .upsert(
-          { quiz_question_id: q.id, bid, source: 'teacher' },
-          { onConflict: 'quiz_question_id,bid', ignoreDuplicates: true }
-        );
-      if (keyErr) { setError(keyErr.message); setSubmitting(false); return; }
-    }
-
     const nextAnswers = { ...answers, [q.id]: bid };
     setAnswers(nextAnswers);
 
@@ -128,6 +127,42 @@ export default function QuizTaking() {
     setSubmitting(false);
   }
 
+  // Teacher only: toggle one bid on/off the accepted-answers set for the current
+  // question. Multiple bids can be accepted at once; this doesn't touch any other
+  // bid already accepted for this question (whether set by the teacher or granted
+  // via a student challenge), and doesn't auto-advance since a teacher may want to
+  // mark several bids before moving on.
+  async function toggleAccepted(bid) {
+    if (submitting || !questions) return;
+    setSubmitting(true);
+    setError(null);
+    const q = questions[viewIndex];
+    const currentSet = acceptedByQuestion[q.id] || new Set();
+    const alreadyAccepted = currentSet.has(bid);
+
+    if (alreadyAccepted) {
+      const { error: delErr } = await supabase
+        .from('accepted_answers')
+        .delete()
+        .eq('quiz_question_id', q.id)
+        .eq('bid', bid);
+      if (delErr) { setError(delErr.message); setSubmitting(false); return; }
+    } else {
+      const { error: insErr } = await supabase
+        .from('accepted_answers')
+        .upsert(
+          { quiz_question_id: q.id, bid, source: 'teacher' },
+          { onConflict: 'quiz_question_id,bid', ignoreDuplicates: true }
+        );
+      if (insErr) { setError(insErr.message); setSubmitting(false); return; }
+    }
+
+    const nextSet = new Set(currentSet);
+    if (alreadyAccepted) nextSet.delete(bid); else nextSet.add(bid);
+    setAcceptedByQuestion({ ...acceptedByQuestion, [q.id]: nextSet });
+    setSubmitting(false);
+  }
+
   async function finishQuiz() {
     if (submitting) return;
     setSubmitting(true);
@@ -137,7 +172,7 @@ export default function QuizTaking() {
       .update({ status: 'submitted', submitted_at: new Date().toISOString() })
       .eq('id', attempt.id);
     if (updErr) { setError(updErr.message); setSubmitting(false); return; }
-    navigate(user.role === 'teacher' ? homePath : `/student/results/${quizId}`);
+    navigate(isTeacher ? homePath : `/student/results/${quizId}`);
   }
 
   if (error) {
@@ -155,7 +190,10 @@ export default function QuizTaking() {
   const tpl = q.question_templates;
   const auctionSoFar = tpl.bids.slice(0, tpl.tested_position - 1);
   const options = legalBids(auctionSoFar, tpl.is_constructive);
-  const answeredCount = Object.keys(answers).length;
+  const answeredIds = isTeacher
+    ? new Set(questions.filter((qq) => acceptedByQuestion[qq.id]?.size > 0).map((qq) => qq.id))
+    : new Set(Object.keys(answers));
+  const answeredCount = answeredIds.size;
   const allAnswered = answeredCount === questions.length;
 
   return (
@@ -163,7 +201,7 @@ export default function QuizTaking() {
       <div className="top-bar">
         <div className="brand">Quiz {quiz.quiz_number} &middot; {quiz.quiz_date}</div>
         <div className="whoami">
-          {user.name} {user.role === 'teacher' && (attempt.status === 'submitted' ? '(reviewing answer key)' : '(setting answer key)')}
+          {user.name} {isTeacher && (attempt.status === 'submitted' ? '(reviewing answer key)' : '(setting answer key)')}
         </div>
       </div>
 
@@ -172,7 +210,7 @@ export default function QuizTaking() {
           <button
             key={qq.id}
             type="button"
-            className={`dot ${qq.id in answers ? 'done' : ''} ${i === viewIndex ? 'current' : ''}`}
+            className={`dot ${answeredIds.has(qq.id) ? 'done' : ''} ${i === viewIndex ? 'current' : ''}`}
             aria-label={`Go to question ${i + 1}`}
             onClick={() => setViewIndex(i)}
           />
@@ -210,15 +248,32 @@ export default function QuizTaking() {
       </div>
 
       <div className="panel">
-        <p className="muted">What do you bid?</p>
-        <BiddingBox legalOptions={options} selected={answers[q.id]} onSelect={submitBid} disabled={submitting} />
+        <p className="muted">{isTeacher ? 'Mark every acceptable bid (you can pick more than one)' : 'What do you bid?'}</p>
+        {isTeacher ? (
+          <BiddingBox
+            legalOptions={options}
+            selected={Array.from(acceptedByQuestion[q.id] || [])}
+            onSelect={toggleAccepted}
+            disabled={submitting}
+          />
+        ) : (
+          <BiddingBox legalOptions={options} selected={answers[q.id]} onSelect={submitBid} disabled={submitting} />
+        )}
       </div>
 
-      {attempt.status === 'submitted' ? (
-        <div className="panel">
-          <p className="muted">Answer key already set &mdash; click a bid above to change it for this question.</p>
-          <Link className="btn secondary" to={homePath}>Back to dashboard</Link>
-        </div>
+      {isTeacher ? (
+        attempt.status === 'submitted' ? (
+          <div className="panel">
+            <p className="muted">Answer key already set &mdash; click a bid above to add or remove it from the accepted answers.</p>
+            <Link className="btn secondary" to={homePath}>Back to dashboard</Link>
+          </div>
+        ) : (
+          <div className="panel">
+            <button type="button" className="nav-btn primary" disabled={!allAnswered || submitting} onClick={finishQuiz}>
+              {allAnswered ? 'Submit quiz' : `Mark at least one bid on every question to submit (${answeredCount}/${questions.length})`}
+            </button>
+          </div>
+        )
       ) : (
         <div className="panel">
           <button type="button" className="nav-btn primary" disabled={!allAnswered || submitting} onClick={finishQuiz}>
