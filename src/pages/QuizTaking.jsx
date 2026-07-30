@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { supabase } from '../supabaseClient.js';
 import { getSessionUser } from '../lib/session.js';
 import { legalBids } from '../lib/bidding.js';
+import { dealHand, dealVulnerability } from '../lib/dealing.js';
 import Hand from '../components/Hand.jsx';
 import AuctionTable from '../components/AuctionTable.jsx';
 import BiddingBox from '../components/BiddingBox.jsx';
@@ -22,11 +23,33 @@ export default function QuizTaking() {
   const [viewIndex, setViewIndex] = useState(0);
   const [error, setError] = useState(null);
   const [submitting, setSubmitting] = useState(false);
+  const [canModify, setCanModify] = useState(false); // teacher only: no student has answered the current question yet
+  const [managing, setManaging] = useState(false);
 
   useEffect(() => {
     load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [quizId]);
+
+  useEffect(() => {
+    if (isTeacher && questions && questions[viewIndex]) {
+      checkCanModify(questions[viewIndex].id);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [viewIndex, questions]);
+
+  // A question already in a generated quiz can only be replaced/removed while
+  // no student has answered it yet — otherwise we'd be silently invalidating
+  // an answer someone already submitted.
+  async function checkCanModify(questionId) {
+    const { data, error } = await supabase
+      .from('answers')
+      .select('quiz_attempt_id, quiz_attempts!inner(user_id)')
+      .eq('quiz_question_id', questionId);
+    if (error) { setCanModify(false); return; }
+    const answeredByStudent = data.some((a) => a.quiz_attempts.user_id !== user.id);
+    setCanModify(!answeredByStudent);
+  }
 
   async function load() {
     setError(null);
@@ -163,6 +186,69 @@ export default function QuizTaking() {
     setSubmitting(false);
   }
 
+  async function clearQuestionData(questionId) {
+    // Order matters: challenges reference answers, so clear those first, then the
+    // answers themselves, then the accepted-answer key entries. canModify already
+    // guarantees no student has answered (so no challenge should exist either),
+    // but this is defensive against neither table having an ON DELETE CASCADE
+    // from quiz_questions.
+    const { error: chDelErr } = await supabase.from('challenges').delete().eq('quiz_question_id', questionId);
+    if (chDelErr) return chDelErr.message;
+    const { error: ansDelErr } = await supabase.from('answers').delete().eq('quiz_question_id', questionId);
+    if (ansDelErr) return ansDelErr.message;
+    const { error: accDelErr } = await supabase.from('accepted_answers').delete().eq('quiz_question_id', questionId);
+    if (accDelErr) return accDelErr.message;
+    return null;
+  }
+
+  async function replaceQuestion() {
+    if (managing || !canModify || !questions) return;
+    const q = questions[viewIndex];
+    if (!window.confirm('Replace this question with a new random one? Its current board and any accepted answers will be discarded.')) return;
+    setManaging(true);
+    setError(null);
+
+    const { data: pool, error: poolErr } = await supabase.from('question_templates').select('*');
+    if (poolErr) { setError(poolErr.message); setManaging(false); return; }
+    const choices = pool.filter((t) => t.id !== q.question_template_id);
+    const tpl = (choices.length ? choices : pool)[Math.floor(Math.random() * (choices.length ? choices.length : pool.length))];
+    if (!tpl) { setError('No templates in the question bank to draw from.'); setManaging(false); return; }
+
+    const clearErr = await clearQuestionData(q.id);
+    if (clearErr) { setError(clearErr); setManaging(false); return; }
+
+    const { error: updErr } = await supabase
+      .from('quiz_questions')
+      .update({
+        question_template_id: tpl.id,
+        dealt_hand: dealHand(tpl.min_hcp, tpl.max_hcp, tpl.shapes),
+        vulnerability: dealVulnerability(),
+      })
+      .eq('id', q.id);
+    if (updErr) { setError(updErr.message); setManaging(false); return; }
+
+    setManaging(false);
+    load();
+  }
+
+  async function removeQuestion() {
+    if (managing || !canModify || !questions) return;
+    const q = questions[viewIndex];
+    if (questions.length <= 1) { setError("Can't remove the last remaining question in a quiz."); return; }
+    if (!window.confirm('Remove this question from the quiz entirely? This can\'t be undone.')) return;
+    setManaging(true);
+    setError(null);
+
+    const clearErr = await clearQuestionData(q.id);
+    if (clearErr) { setError(clearErr); setManaging(false); return; }
+
+    const { error: delErr } = await supabase.from('quiz_questions').delete().eq('id', q.id);
+    if (delErr) { setError(delErr.message); setManaging(false); return; }
+
+    setManaging(false);
+    load();
+  }
+
   async function finishQuiz() {
     if (submitting) return;
     setSubmitting(true);
@@ -260,6 +346,24 @@ export default function QuizTaking() {
           <BiddingBox legalOptions={options} selected={answers[q.id]} onSelect={submitBid} disabled={submitting} />
         )}
       </div>
+
+      {isTeacher && (
+        <div className="panel">
+          <p className="muted">
+            {canModify
+              ? 'Question looks wrong or buggy? Replace it with a new random one, or remove it from the quiz.'
+              : "Can't modify — a student has already answered this question."}
+          </p>
+          <div style={{ display: 'flex', gap: 8, marginTop: 8 }}>
+            <button className="secondary" disabled={!canModify || managing} onClick={replaceQuestion}>
+              Replace with a new question
+            </button>
+            <button className="danger" disabled={!canModify || managing} onClick={removeQuestion}>
+              Remove from quiz
+            </button>
+          </div>
+        </div>
+      )}
 
       {isTeacher ? (
         attempt.status === 'submitted' ? (
