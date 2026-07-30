@@ -69,10 +69,17 @@ export default function TeacherDashboard() {
     const attemptByQuizUser = {};
     attempts.forEach((a) => { attemptByQuizUser[`${a.quiz_id}:${a.user_id}`] = a; });
 
-    const teacherAttemptStatus = {};
+    // Answer key status is shared across every teacher — accepted_answers isn't
+    // scoped to whoever set it — so this reflects how much of the quiz is
+    // actually graded, not just this teacher's own attempt. That way if another
+    // teacher already answered a quiz, it shows "Review"/"Resume" here too
+    // instead of misleadingly offering "Answer" again from scratch.
+    const keyStatusByQuiz = {};
     quizzes.forEach((q) => {
-      const a = attemptByQuizUser[`${q.id}:${user.id}`];
-      teacherAttemptStatus[q.id] = a?.status || 'not_started';
+      const qIds = questionsByQuiz[q.id] || [];
+      const totalQ = qIds.length;
+      const gradedQ = qIds.filter((id) => (acceptedByQuestion[id]?.size || 0) > 0).length;
+      keyStatusByQuiz[q.id] = gradedQ === 0 ? 'not_started' : gradedQ >= totalQ ? 'submitted' : 'in_progress';
     });
 
     // Raw score for one student on one quiz — separated from cellFor's display
@@ -147,7 +154,7 @@ export default function TeacherDashboard() {
       return (avgByStudent[b.id] ?? -1) - (avgByStudent[a.id] ?? -1);
     });
 
-    setData({ quizzes, students, teacherAttemptStatus, cellFor, winnersByQuiz, tokensByStudent, avgByStudent, leaderboard });
+    setData({ quizzes, students, keyStatusByQuiz, cellFor, winnersByQuiz, tokensByStudent, avgByStudent, leaderboard });
   }
 
   function logout() {
@@ -213,9 +220,9 @@ export default function TeacherDashboard() {
                     <td>#{q.quiz_number} <span className="muted">({q.quiz_date})</span></td>
                     <td>
                       <Link className="btn secondary" to={`/teacher/quiz/${q.id}`}>
-                        {data.teacherAttemptStatus[q.id] === 'submitted'
+                        {data.keyStatusByQuiz[q.id] === 'submitted'
                           ? 'Review'
-                          : data.teacherAttemptStatus[q.id] === 'in_progress'
+                          : data.keyStatusByQuiz[q.id] === 'in_progress'
                             ? 'Resume'
                             : 'Answer'}
                       </Link>
