@@ -18,19 +18,22 @@ export default function TeacherDashboard() {
 
   async function load() {
     setError(null);
-    const [{ data: quizzes, error: qErr }, { data: students, error: sErr }] = await Promise.all([
+    const [{ data: quizzes, error: qErr }, { data: students, error: sErr }, { data: teachers, error: tErr }] = await Promise.all([
       supabase.from('quizzes').select('*').order('quiz_number'),
       supabase.from('users').select('*').eq('role', 'student').order('name'),
+      supabase.from('users').select('id, name').eq('role', 'teacher'),
     ]);
     if (qErr) { setError(qErr.message); return; }
     if (sErr) { setError(sErr.message); return; }
+    if (tErr) { setError(tErr.message); return; }
+    const teacherNameById = Object.fromEntries(teachers.map((t) => [t.id, t.name]));
 
     const quizIds = quizzes.map((q) => q.id);
     const [{ data: questions, error: qqErr }, { data: attempts, error: aErr }, { data: answers, error: ansErr }, { data: accepted, error: accErr }, { count: pendingCount }, { data: qaThreads, error: qaErr }] = await Promise.all([
       supabase.from('quiz_questions').select('id, quiz_id').in('quiz_id', quizIds.length ? quizIds : ['00000000-0000-0000-0000-000000000000']),
       supabase.from('quiz_attempts').select('*'),
       supabase.from('answers').select('*'),
-      supabase.from('accepted_answers').select('quiz_question_id, bid'),
+      supabase.from('accepted_answers').select('quiz_question_id, bid, source, set_by'),
       supabase.from('challenges').select('id', { count: 'exact', head: true }).eq('status', 'pending'),
       supabase.from('board_qa_threads').select('id, board_qa_messages(sender_role, created_at)'),
     ]);
@@ -80,6 +83,23 @@ export default function TeacherDashboard() {
       const totalQ = qIds.length;
       const gradedQ = qIds.filter((id) => (acceptedByQuestion[id]?.size || 0) > 0).length;
       keyStatusByQuiz[q.id] = gradedQ === 0 ? 'not_started' : gradedQ >= totalQ ? 'submitted' : 'in_progress';
+    });
+
+    // Which teacher(s) actually clicked the bids for a quiz — only tracked for
+    // rows set after set_by was added, so older quizzes just won't show names.
+    const questionToQuiz = {};
+    questions.forEach((q) => { questionToQuiz[q.id] = q.quiz_id; });
+    const setByTeacherIdsByQuiz = {};
+    accepted.forEach((r) => {
+      if (r.source !== 'teacher' || !r.set_by) return;
+      const quizId = questionToQuiz[r.quiz_question_id];
+      if (!quizId) return;
+      setByTeacherIdsByQuiz[quizId] = setByTeacherIdsByQuiz[quizId] || new Set();
+      setByTeacherIdsByQuiz[quizId].add(r.set_by);
+    });
+    const setByNamesByQuiz = {};
+    Object.entries(setByTeacherIdsByQuiz).forEach(([quizId, ids]) => {
+      setByNamesByQuiz[quizId] = [...ids].map((id) => teacherNameById[id] || 'Unknown').sort();
     });
 
     // Raw score for one student on one quiz — separated from cellFor's display
@@ -154,7 +174,7 @@ export default function TeacherDashboard() {
       return (avgByStudent[b.id] ?? -1) - (avgByStudent[a.id] ?? -1);
     });
 
-    setData({ quizzes, students, keyStatusByQuiz, cellFor, winnersByQuiz, tokensByStudent, avgByStudent, leaderboard });
+    setData({ quizzes, students, keyStatusByQuiz, setByNamesByQuiz, cellFor, winnersByQuiz, tokensByStudent, avgByStudent, leaderboard });
   }
 
   function logout() {
@@ -226,6 +246,11 @@ export default function TeacherDashboard() {
                             ? 'Resume'
                             : 'Answer'}
                       </Link>
+                      {data.setByNamesByQuiz[q.id]?.length > 0 && (
+                        <div className="muted" style={{ fontSize: 12, marginTop: 4 }}>
+                          by {data.setByNamesByQuiz[q.id].join(', ')}
+                        </div>
+                      )}
                     </td>
                     {data.students.map((s) => {
                       const cell = data.cellFor(q.id, s.id);
