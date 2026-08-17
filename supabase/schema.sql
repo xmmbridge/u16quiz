@@ -75,7 +75,6 @@ create table accepted_answers (
   bid text not null,
   source text not null check (source in ('teacher','challenge')),
   challenge_id uuid,
-  set_by uuid references users(id), -- which teacher accepted this bid (source='teacher' rows only); null for rows predating this column and for challenge-sourced rows
   created_at timestamptz default now(),
   unique (quiz_question_id, bid)
 );

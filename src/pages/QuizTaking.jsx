@@ -174,7 +174,7 @@ export default function QuizTaking() {
       const { error: insErr } = await supabase
         .from('accepted_answers')
         .upsert(
-          { quiz_question_id: q.id, bid, source: 'teacher', set_by: user.id },
+          { quiz_question_id: q.id, bid, source: 'teacher' },
           { onConflict: 'quiz_question_id,bid', ignoreDuplicates: true }
         );
       if (insErr) { setError(insErr.message); setSubmitting(false); return; }
