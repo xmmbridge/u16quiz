@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../supabaseClient.js';
 import { getSessionUser, clearSessionUser } from '../lib/session.js';
+import { fetchInChunks } from '../lib/fetchAll.js';
 
 export default function StudentQuizList() {
   const user = getSessionUser();
@@ -30,10 +31,12 @@ export default function StudentQuizList() {
 
     // For submitted attempts, figure out which quizzes are fully graded yet.
     const quizIds = quizzes.map((q) => q.id);
-    const { data: acceptedRows, error: accErr } = await supabase
-      .from('accepted_answers')
-      .select('quiz_question_id, quiz_questions!inner(quiz_id)')
-      .in('quiz_questions.quiz_id', quizIds.length ? quizIds : ['00000000-0000-0000-0000-000000000000']);
+    const { data: acceptedRows, error: accErr } = await fetchInChunks(quizIds, (chunk) =>
+      supabase
+        .from('accepted_answers')
+        .select('quiz_question_id, quiz_questions!inner(quiz_id)')
+        .in('quiz_questions.quiz_id', chunk)
+    );
     if (accErr) { setError(accErr.message); return; }
     const gradedQuestionIdsByQuiz = {};
     acceptedRows.forEach((r) => {

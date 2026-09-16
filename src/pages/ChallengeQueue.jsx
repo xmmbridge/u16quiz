@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../supabaseClient.js';
+import { fetchAll } from '../lib/fetchAll.js';
 import { formatBid } from '../lib/bidding.js';
 import AuctionTable from '../components/AuctionTable.jsx';
 import Hand from '../components/Hand.jsx';
@@ -22,15 +23,17 @@ export default function ChallengeQueue() {
   async function load() {
     setError(null);
     const [{ data, error }, { data: studentRows, error: sErr }, { data: quizRows, error: qErr }] = await Promise.all([
-      supabase
-        .from('challenges')
-        .select(`
-          *,
-          answers(bid_given),
-          users(name),
-          quiz_questions(*, question_templates(*), quizzes(id, quiz_number, quiz_date))
-        `)
-        .order('created_at', { ascending: false }),
+      fetchAll(() =>
+        supabase
+          .from('challenges')
+          .select(`
+            *,
+            answers(bid_given),
+            users(name),
+            quiz_questions(*, question_templates(*), quizzes(id, quiz_number, quiz_date))
+          `)
+          .order('created_at', { ascending: false })
+      ),
       supabase.from('users').select('id, name').eq('role', 'student').order('name'),
       supabase.from('quizzes').select('id, quiz_number, quiz_date').order('quiz_number'),
     ]);

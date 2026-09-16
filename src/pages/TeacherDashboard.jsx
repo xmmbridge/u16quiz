@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../supabaseClient.js';
 import { getSessionUser, clearSessionUser } from '../lib/session.js';
+import { fetchAll, fetchInChunks } from '../lib/fetchAll.js';
 
 export default function TeacherDashboard() {
   const user = getSessionUser();
@@ -27,12 +28,12 @@ export default function TeacherDashboard() {
 
     const quizIds = quizzes.map((q) => q.id);
     const [{ data: questions, error: qqErr }, { data: attempts, error: aErr }, { data: answers, error: ansErr }, { data: accepted, error: accErr }, { count: pendingCount }, { data: qaThreads, error: qaErr }] = await Promise.all([
-      supabase.from('quiz_questions').select('id, quiz_id').in('quiz_id', quizIds.length ? quizIds : ['00000000-0000-0000-0000-000000000000']),
-      supabase.from('quiz_attempts').select('*'),
-      supabase.from('answers').select('*'),
-      supabase.from('accepted_answers').select('quiz_question_id, bid'),
+      fetchInChunks(quizIds, (chunk) => supabase.from('quiz_questions').select('id, quiz_id').in('quiz_id', chunk)),
+      fetchAll(() => supabase.from('quiz_attempts').select('*')),
+      fetchAll(() => supabase.from('answers').select('*')),
+      fetchAll(() => supabase.from('accepted_answers').select('quiz_question_id, bid')),
       supabase.from('challenges').select('id', { count: 'exact', head: true }).eq('status', 'pending'),
-      supabase.from('board_qa_threads').select('id, board_qa_messages(sender_role, created_at)'),
+      fetchAll(() => supabase.from('board_qa_threads').select('id, board_qa_messages(sender_role, created_at)')),
     ]);
     if (qqErr) { setError(qqErr.message); return; }
     if (aErr) { setError(aErr.message); return; }
