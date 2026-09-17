@@ -11,7 +11,14 @@ export async function fetchAll(build) {
   let all = [];
   let from = 0;
   for (;;) {
-    const { data, error } = await build().range(from, from + PAGE_SIZE - 1);
+    // Without an explicit order, Postgres doesn't guarantee the same row order
+    // across separate requests (a plain seq scan can shuffle between calls once
+    // a table's big enough to go parallel) — so paging with .range() alone can
+    // silently return some rows twice and drop others between pages. Every table
+    // here has a uuid `id` primary key; ordering by it (appended after whatever
+    // order the caller already set, since .order() composes) makes every page
+    // boundary stable regardless of what the call site sorts by.
+    const { data, error } = await build().order('id', { ascending: true }).range(from, from + PAGE_SIZE - 1);
     if (error) return { data: null, error };
     all = all.concat(data);
     if (!data || data.length < PAGE_SIZE) break;
